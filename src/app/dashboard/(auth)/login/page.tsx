@@ -5,7 +5,7 @@ import { getProviders, signIn, useSession } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-const Login = () => {
+const Login = ({ url } ) => {
   const session = useSession();
   const router = useRouter();
   const params = useSearchParams();
@@ -54,15 +54,9 @@ const Login = () => {
         >
           Login with Google
       </button>
-      {/* <button
-        onClick={() => {
-          signIn("github");
-        }}
-        className={styles.button + " " + styles.github}
-      >
-        Login with Github
-      </button> */}
-      <span className={styles.or}>- OR -</span>
+      <span className={styles.or}>
+        - OR -
+      </span>
       <Link className={styles.link} href="/dashboard/register">
         Create new account
       </Link>
@@ -70,4 +64,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login
