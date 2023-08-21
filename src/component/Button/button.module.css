@@ -1,0 +1,14 @@
+.container{
+    padding: 12px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: 3px;
+    width: max-content;
+    color: wheat;
+    font-weight: 100;
+  }
+  .container:hover{
+    background-color: #28bb8b;
+  }
