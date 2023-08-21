@@ -88,41 +88,9 @@
         "async": false
       }
     },
-    "(app-client)/./public/logo-pineapple.png": {
-      "*": {
-        "id": "(sc_client)/./public/logo-pineapple.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/component/AuthProvider/AuthProvider.tsx": {
       "*": {
         "id": "(sc_client)/./src/component/AuthProvider/AuthProvider.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/component/DarkModeToggle/DarkModeToggle.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/component/DarkModeToggle/DarkModeToggle.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/component/navbar/Navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/component/navbar/Navbar.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/context/ThemeContext.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/context/ThemeContext.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -319,7 +287,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -327,7 +295,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -347,40 +315,8 @@
       ],
       "async": false
     },
-    "/home/nahidulislam/Documents/code/web/fruitsfresh.com/public/logo-pineapple.png": {
-      "id": "(app-client)/./public/logo-pineapple.png",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/component/AuthProvider/AuthProvider.tsx": {
       "id": "(app-client)/./src/component/AuthProvider/AuthProvider.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/component/DarkModeToggle/DarkModeToggle.jsx": {
-      "id": "(app-client)/./src/component/DarkModeToggle/DarkModeToggle.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/component/navbar/Navbar.tsx": {
-      "id": "(app-client)/./src/component/navbar/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/context/ThemeContext.tsx": {
-      "id": "(app-client)/./src/context/ThemeContext.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -402,9 +338,7 @@
       "modules": [
         "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/app/globals.css",
         "/home/nahidulislam/Documents/code/web/fruitsfresh.com/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-        "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/component/DarkModeToggle/DarkModeToggle.module.css",
-        "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/component/footer/page.module.css",
-        "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/component/navbar/page.module.css"
+        "/home/nahidulislam/Documents/code/web/fruitsfresh.com/src/component/footer/page.module.css"
       ],
       "files": [
         "static/css/app/layout.css"

@@ -20,7 +20,7 @@ const Blog = async () => {
   const data = await getData();
   return (
     <div className={styles.mainContainer}>
-      {data?.map((item) => (
+      {data?.map((item: any) => (
           <Link href={`/blog/${item._id}`} className={styles.container} key={item._id}>
             <div className={styles.imageContainer}>
               <Image

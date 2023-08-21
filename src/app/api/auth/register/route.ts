@@ -3,7 +3,7 @@ import connect from "@/utils/db";
 import bcrypt from "bcryptjs";
 import { NextResponse } from "next/server";
 
-export const POST = async (request) => {
+export const POST = async (request: any) => {
   const { name, email, password } = await request.json();
 
   await connect();
@@ -23,7 +23,7 @@ export const POST = async (request) => {
     }
     );
   } 
-  catch (err) {
+  catch (err: any ) {
     return new NextResponse(err.message, {
       status: 500,
     });

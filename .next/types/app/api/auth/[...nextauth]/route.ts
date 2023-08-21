@@ -1,4 +1,4 @@
-// File: /home/nahidulislam/Documents/code/web/fruitsfresh.com/src/app/api/auth/[...nextauth]/route.ts
+// File: /home/nahidulislam/Documents/code/web/fruitsfresh.com/src/app/api/auth/[...nextauth]/route.js
 import * as entry from '../../../../../../src/app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 
